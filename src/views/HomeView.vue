@@ -2,7 +2,7 @@
 import { ref,reactive, onMounted } from 'vue'
 
 const list =  reactive([])
-const newTodo = ''
+const newTodo = ref('')
 
 
 const addTodo = (newTodo) => {
